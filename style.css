@@ -69,3 +69,22 @@ button{
     letter-spacing: 2px;
 
 }
+@media (width<=400px) {
+    #robot-image{
+        width: 65vw;
+        
+    }
+    h1{
+        text-align: center;
+        
+    }
+    #name{
+        font-size: 30px;
+    }
+    #va{
+        font-size: 30px;
+    }
+    button{
+        width: 90%;
+    }
+}
