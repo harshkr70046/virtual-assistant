@@ -26,9 +26,12 @@ function wishMe(){
 
     }
 }
-window.addEventListener('load',()=>{
+// window.addEventListener('load',()=>{
+//     wishMe();
+// })
+window.addEventListener("click", () => {
     wishMe();
-})
+}, { once: true });
 
 let speechRecognition = window.speechRecognition || window.webkitSpeechRecognition;
 let recognition = new speechRecognition()
